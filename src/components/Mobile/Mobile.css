@@ -1,7 +1,7 @@
 .mobile-card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 25px;
 }
 
 .mobile-card {
@@ -106,5 +106,5 @@ h2 {
 .restock-container input {
   padding: 5px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 6px;
 }
