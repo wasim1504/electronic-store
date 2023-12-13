@@ -1,7 +1,7 @@
 .mobile-card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 17px;
 }
 
 .mobile-card {
@@ -88,7 +88,7 @@ h2 {
 }
 
 .order-button-container button {
-  background-color: #ffcc80;
+  background-color: #d7b684;
   color: #972929;
   padding: 10px 15px;
   border: none;
@@ -106,5 +106,5 @@ h2 {
 .restock-container input {
   padding: 5px;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 7px;
 }
