@@ -1,0 +1,58 @@
+.laptop-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.laptop-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.laptop-card h3 {
+  font-size: 18px;
+  color: #b18f8f;
+  margin-bottom: 10px;
+}
+
+.laptop-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.laptop-card button {
+  background-color: #f09e23;
+  color: #5f4949;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.laptop-card button:hover {
+  background-color: #ffaa54;
+}
+
+h1 {
+  font-size: 36px;
+  color: #7a6e6e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: #2f0505;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .laptop-card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

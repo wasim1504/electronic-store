@@ -1,0 +1,44 @@
+.users-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.loading-message {
+  font-size: 18px;
+  color: #984040;
+  margin-top: 20px;
+}
+
+.error-message {
+  font-size: 18px;
+  color: #a33b3b;
+  margin-top: 20px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-card {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.user-name {
+  font-size: 20px;
+  color: #712727;
+  margin-bottom: 10px;
+}

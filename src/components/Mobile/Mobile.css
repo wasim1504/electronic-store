@@ -1,0 +1,110 @@
+.mobile-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.mobile-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-card h3 {
+  font-size: 18px;
+  color: #5a1f1f;
+  margin-bottom: 10px;
+}
+
+.mobile-card p {
+  font-size: 16px;
+  color: #4c2525;
+  margin-bottom: 10px;
+}
+
+.mobile-card button {
+  background-color: #ffcc80;
+  color: #904444;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.mobile-card button:hover {
+  background-color: #ffaa54;
+}
+
+h1 {
+  font-size: 36px;
+  color: #301515;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: #6c2f2f;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mobile-card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-container input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.mobile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-button-container {
+  margin-top: 10px;
+}
+
+.order-button-container button {
+  background-color: #ffcc80;
+  color: #972929;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restock-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.restock-container input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
